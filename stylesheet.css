@@ -4,10 +4,13 @@ header {
   padding: 10px;
   display: flex;
   justify-content: space-between;
+  border-radius: 20px;
+  align-items: center;
+  border: 2px solid white;
 }
 
 h1 {
-  font-size: 1.5em;
+  display: none;
 }
 
 nav {
@@ -16,5 +19,6 @@ nav {
 }
 
 nav li {
-  margin-left: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
