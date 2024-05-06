@@ -1,4 +1,5 @@
-/* General styles */
+@media only screen and (min-width: 768px) {
+   
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -6,24 +7,26 @@ body {
     background-color: #000000;
 }
 #RYM1{
+    border-radius: 10px;
     position: absolute;
-    width: 40%;
-    height: auto;
+    width: 70%;
+    height: 65%;
     align-items: center;
     top: 500PX;
-    right: 450px;
+    right: 220px;
 }
+
 #tit{
     top: 5%;
     left: 10%;
     position: absolute;
 }
-#subtit{
-    top: 5%;
+#tit1{
+    top: 8%;
     left: 7%;
     position: absolute;
 }
-#subtit2{
+#tit2{
     top: 20%;
     left: 2%;
     position: absolute;
@@ -31,12 +34,10 @@ body {
 h1 {
     font-family: "Jersey 10", sans-serif;
     color: #add6ec;
-    font-size: 150px;
-    margin-bottom: 10px;
+    font-size: 135px;
+    margin-bottom: 20px;
 }
-#TITULO h1{
-    left: 78%;
-}
+
 main {
     display: flex;
     justify-content: center;
@@ -59,11 +60,576 @@ main {
 
 .image-container {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .summary-text {
     text-align: justify;
     line-height: 1.6;
+}
+
+#subtit{
+    top: 125%;
+    left: 20%;
+    position: absolute;
+}
+#subtit1{
+    top: 145%;
+    left: 35%;
+    position: absolute;
+}
+
+h2 {
+    font-family: "Jersey 10", sans-serif;
+    color: #add6ec;
+    font-size: 100px;
+    margin-bottom: 20px;
+}
+
+#sub2{
+    top: 160%;
+    left: 10%;
+    position: absolute;
+}
+
+#sub3 {
+    top: 165%;
+    left: 10%;
+    position: absolute;
+}
+
+h3 {
+    font-family: "Jersey 10", sans-serif;
+    color: #add6ec;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+#sub4 {
+    font-family: "Jersey 10", sans-serif;
+    color: #add6ec;
+    font-size: 50px;
+    margin-bottom: 20px;
+    top: 172%;
+    left: 22%;
+    position: absolute;
+
+}
+
+
+#sub5 {
+    font-family: "Jersey 10", sans-serif;
+    color: #add6ec;
+    font-size: 23px;
+    margin-bottom: 20px;
+    top: 182%;
+    left: 19%;
+    position: absolute;
+
+}
+
+#sub6 {
+    font-family: "Jersey 10", sans-serif;
+    color: #add6ec;
+    font-size: 50px;
+    margin-bottom: 20px;
+    top: 172%;
+    left: 42%;
+    position: absolute;
+
+}
+
+
+#sub7 {
+    font-family: "Jersey 10", sans-serif;
+    color: #add6ec;
+    font-size: 25px;
+    margin-bottom: 25px;
+    top: 181%;
+    left: 39%;
+    position: absolute;
+
+}
+
+
+
+#sub8 {
+    font-family: "Jersey 10", sans-serif;
+    color: #add6ec;
+    font-size: 50px;
+    margin-bottom: 20px;
+    top: 185%;
+    left: 13%;
+    position: absolute;
+
+}
+
+
+#sub9 {
+    font-family: "Jersey 10", sans-serif;
+    color: #add6ec;
+    font-size: 25px;
+    margin-bottom: 25px;
+    top: 194.5%;
+    left: 17%;
+    position: absolute;
+
+}
+
+
+
+#sub10 {
+    font-family: "Jersey 10", sans-serif;
+    color: #add6ec;
+    font-size: 50px;
+    margin-bottom: 20px;
+    top: 185%;
+    left: 35.5%;
+    position: absolute;
+
+}
+
+
+#sub11 {
+    font-family: "Jersey 10", sans-serif;
+    color: #add6ec;
+    font-size: 25px;
+    margin-bottom: 25px;
+    top: 195%;
+    left: 40%;
+    position: absolute;
+
+}
+
+
+
+#per1 {
+    font-family: "Jersey 10", sans-serif;
+    color: #add6ec;
+    font-size: 100px;
+    margin-bottom: 20px;
+    top: 210%;
+    left: 20%;
+    position: absolute;
+
+}
+
+
+#per2 {
+    font-family: "Jersey 10", sans-serif;
+    color: #add6ec;
+    font-size: 100px;
+    margin-bottom: 25px;
+    top: 210%;
+    left: 50%;
+    position: absolute;
+
+}
+
+#per3 {
+    font-family: "Jersey 10", sans-serif;
+    color: #add6ec;
+    font-size: 20px;
+    margin-bottom: 25px;
+    top: 237%;
+    left: 39%;
+    position: absolute;
+
+}
+
+#Rick1 {
+    font-family: "Jersey 10", sans-serif;
+    color: #add6ec;
+    font-size: 30px;
+    margin-bottom: 25px;
+    top: 266%;
+    left: 14%;
+    position: absolute;
+
+}
+
+#Rick2 {
+    font-family: "Jersey 10", sans-serif;
+    color: #add6ec;
+    font-size: 30px;
+    margin-bottom: 25px;
+    top: 266%;
+    left: 18%;
+    position: absolute;
+
+}
+
+
+
+#Rick3 {
+    font-family: "Arial", sans-serif;
+    position: absolute;
+    top: 272%;
+    color: #fff;
+    background-color: #000000;
+    padding: 15px;
+    border-radius: 5px;
+    max-width: 350px;
+    width: 90%;
+    left: 6%;
+    position: absolute;
+    text-align: center;
+
+}
+
+
+#rick {
+    position: absolute;
+    top: 252%;
+    color: #fff;
+    background-color: #000000;
+    padding: 0px;
+    border-radius: 10px;
+    max-width: 250px;
+    width: 90%;
+    left: 10%;
+    position: absolute;
+
+}
+
+
+
+
+#Morty1 {
+    font-family: "Jersey 10", sans-serif;
+    color: #add6ec;
+    font-size: 30px;
+    margin-bottom: 25px;
+    top: 266%;
+    left: 45%;
+    position: absolute;
+
+}
+
+#Morty2 {
+    font-family: "Jersey 10", sans-serif;
+    color: #add6ec;
+    font-size: 30px;
+    margin-bottom: 25px;
+    top: 266%;
+    left: 50%;
+    position: absolute;
+
+}
+
+
+
+#Morty3 {
+    font-family: "Arial", sans-serif;
+    position: absolute;
+    top: 272%;
+    color: #fff;
+    background-color: #000000;
+    padding: 15px;
+    border-radius: 5px;
+    max-width: 350px;
+    width: 90%;
+    left: 36.5%;
+    position: absolute;
+    text-align: center;
+
+}
+
+
+#morty {
+    position: absolute;
+    top: 253%;
+    color: #fff;
+    background-color: #000000;
+    padding: 0px;
+    border-radius: 10px;
+    max-width: 158px;
+    width: 90%;
+    left: 44%;
+    position: absolute;
+
+}
+
+
+#Summer1 {
+    font-family: "Jersey 10", sans-serif;
+    color: #add6ec;
+    font-size: 30px;
+    margin-bottom: 25px;
+    top: 266%;
+    left: 77%;
+    position: absolute;
+
+}
+
+#Summer2 {
+    font-family: "Jersey 10", sans-serif;
+    color: #add6ec;
+    font-size: 30px;
+    margin-bottom: 25px;
+    top: 266%;
+    left: 84%;
+    position: absolute;
+
+}
+
+
+
+#Summer3 {
+    font-family: "Arial", sans-serif;
+    position: absolute;
+    top: 272%;
+    color: #fff;
+    background-color: #000000;
+    padding: 15px;
+    border-radius: 5px;
+    max-width: 350px;
+    width: 90%;
+    left: 70%;
+    position: absolute;
+    text-align: center;
+
+}
+
+
+#summer {
+    position: absolute;
+    top: 252%;
+    color: #fff;
+    background-color: #000000;
+    padding: 0px;
+    border-radius: 10px;
+    max-width: 100px;
+    width: 90%;
+    left: 79%;
+    position: absolute;
+
+}
+
+
+#Jerry1 {
+    font-family: "Jersey 10", sans-serif;
+    color: #add6ec;
+    font-size: 30px;
+    margin-bottom: 25px;
+    top: 311%;
+    left: 28%;
+    position: absolute;
+
+}
+
+#Jerry2 {
+    font-family: "Jersey 10", sans-serif;
+    color: #add6ec;
+    font-size: 30px;
+    margin-bottom: 25px;
+    top: 311%;
+    left: 33%;
+    position: absolute;
+
+}
+
+
+
+#Jerry3 {
+    font-family: "Arial", sans-serif;
+    position: absolute;
+    top: 317%;
+    color: #fff;
+    background-color: #000000;
+    padding: 15px;
+    border-radius: 5px;
+    max-width: 350px;
+    width: 90%;
+    left: 20%;
+    position: absolute;
+    text-align: center;
+
+}
+
+
+#jerry {
+    position: absolute;
+    top: 294%;
+    color: #fff;
+    background-color: #000000;
+    border-radius: 100px;
+    max-width: 130px;
+    width: 90%;
+    left: 29%;
+    position: absolute;
+
+}
+
+
+
+#Beth1 {
+    font-family: "Jersey 10", sans-serif;
+    color: #add6ec;
+    font-size: 30px;
+    margin-bottom: 25px;
+    top: 311%;
+    left: 62.8%;
+    position: absolute;
+
+}
+
+#Beth2 {
+    font-family: "Jersey 10", sans-serif;
+    color: #add6ec;
+    font-size: 30px;
+    margin-bottom: 25px;
+    top: 311%;
+    left: 67%;
+    position: absolute;
+
+}
+
+
+
+#Beth3 {
+    font-family: "Arial", sans-serif;
+    position: absolute;
+    top: 317%;
+    color: #fff;
+    background-color: #000000;
+    padding: 15px;
+    border-radius: 5px;
+    max-width: 350px;
+    width: 90%;
+    left: 55%;
+    position: absolute;
+    text-align: center;
+
+}
+
+
+#beth {
+    position: absolute;
+    top: 294%;
+    color: #fff;
+    background-color: #000000;
+    border-radius: 1x0px;
+    max-width: 100px;
+    width: 90%;
+    left: 65%;
+    position: absolute;
+
+}
+
+
+
+
+#RYM2 {
+    position: absolute;
+    top: 170%;
+    color: #fff;
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 30px;
+    max-width: 525px;
+    width: 90%;
+    left: 57%;
+    position: absolute;
+
+}
+
+
+#res1 {
+    font-family: "Jersey 10", sans-serif;
+    font-size: 100px;
+    margin-bottom: 25px;
+    top: 338%;
+    left: 24%;
+    position: absolute;
+
+}
+
+#res2 {
+    font-family: "Jersey 10", sans-serif;
+    font-size: 100px;
+    margin-bottom: 25px;
+    top: 338%;
+    left: 54%;
+    position: absolute;
+
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+        background-color: #000000;
+    }
+    
+    #RYM1 {
+        border-radius: 10px;
+        width: 100%; /* Cambiado para ocupar todo el ancho del contenedor */
+        max-width: 300px; /* Ajustado según tu diseño */
+        height: auto; /* Altura automática para mantener la proporción */
+        margin-top: 20px; /* Espacio entre la imagen y el contenido */
+    }
+    
+    #tit {
+        text-align: center; /* Centrar el título */
+    }
+    
+    #tit1 {
+        text-align: center; /* Centrar la frase */
+    }
+    
+    h1 {
+        font-family: "Jersey 10", sans-serif;
+        color: #add6ec;
+        font-size: 40px; /* Reducido para dispositivos móviles */
+        margin-bottom: 10px; /* Reducido el espacio entre el título y la frase */
+    }
+    
+    main {
+        min-height: auto; /* Eliminado el alto mínimo */
+    }
+    
+    .summary-container {
+        position: static; /* Cambiado a posición estática para seguir el flujo del documento */
+        color: #fff;
+        background-color: #000000;
+        padding: 20px;
+        border-radius: 10px;
+        max-width: none; /* Eliminado el máximo ancho */
+        width: 100%; /* Ancho completo del contenedor */
+        margin-top: 20px; /* Espacio entre el título y el contenido */
+    }
+    
+    .image-container {
+        text-align: center;
+        margin-top: 20px; /* Espacio entre el contenido y la imagen */
+    }
+    
+    .summary-text {
+        text-align: justify;
+        line-height: 1.6;
+        font-size: 16px; /* Tamaño de fuente ajustado */
+        max-width: none; /* Eliminado el máximo ancho */
+    }
+    
 
 }
