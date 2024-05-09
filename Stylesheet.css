@@ -556,6 +556,134 @@ h3 {
 }
 
 
+#R_1 {
+    position: absolute;
+    top: 370%;
+    color: #fff;
+    background-color: #000000;
+    border-radius: 10px;
+    max-width: 350px;
+    width: 90%;
+    left: 10%;
+    position: absolute;
+
+}
+
+#R_2 {
+    position: absolute;
+    top: 370%;
+    color: #fff;
+    background-color: #000000;
+    border-radius: 10px;
+    max-width: 350px;
+    width: 90%;
+    left: 37%;
+    position: absolute;
+
+}
+
+#R_3 {
+    position: absolute;
+    top: 370%;
+    color: #fff;
+    background-color: #000000;
+    border-radius: 10px;
+    max-width: 350px;
+    width: 90%;
+    left: 64%;
+    position: absolute;
+
+}
+
+
+
+#R_4 {
+    position: absolute;
+    top: 410%;
+    color: #fff;
+    background-color: #000000;
+    border-radius: 10px;
+    max-width: 350px;
+    width: 90%;
+    left: 10%;
+    position: absolute;
+
+}
+
+
+#R_5 {
+    position: absolute;
+    top: 410%;
+    color: #fff;
+    background-color: #000000;
+    border-radius: 10px;
+    max-width: 350px;
+    width: 90%;
+    left: 37%;
+    position: absolute;
+
+}
+
+#R_6 {
+    position: absolute;
+    top: 410%;
+    color: #fff;
+    background-color: #000000;
+    border-radius: 10px;
+    max-width: 350px;
+    width: 90%;
+    left: 64%;
+    position: absolute;
+
+}
+
+
+#R_7 {
+    position: absolute;
+    top: 460%;
+    color: #fff;
+    background-color: #000000;
+    border-radius: 10px;
+    max-width: 800px;
+    width: 90%;
+    left: 22%;
+    position: absolute;
+
+}
+
+
+#button-74 {
+    background-color: #add6ec;
+    position: relative;
+    border: 2px solid #add6ec;
+    border-radius: 30px;
+    top: 3030px;
+    box-shadow: #a2ff33 4px 4px 0 0;
+    color: #000000;
+    cursor: pointer;
+    font-weight: 600;
+    left: 43%;
+    font-size: 18px;
+    padding: 18px;
+    line-height: 20px;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  #button-74:hover {
+    background-color: #fff;
+  }
+  
+  #button-74:active {
+    box-shadow: #a2ff33 2px 2px 0 0;
+    transform: translate(2px, 2px);
+  }
+  
+
+
 }
 
 
